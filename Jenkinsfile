@@ -21,6 +21,12 @@ pipeline {
           }
         }
 
+        stage('a failed shell script') {
+          steps {
+            sh 'pad'
+          }
+        }
+
       }
     }
 
