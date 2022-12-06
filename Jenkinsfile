@@ -15,6 +15,12 @@ pipeline {
           }
         }
 
+        stage('shell script testing') {
+          steps {
+            sh 'pwd'
+          }
+        }
+
       }
     }
 
