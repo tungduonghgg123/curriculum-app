@@ -21,18 +21,23 @@ pipeline {
           }
         }
 
-        stage('a failed shell script') {
-          steps {
-            sh 'pad'
-          }
-        }
-
       }
     }
 
     stage('Print Hello World') {
-      steps {
-        echo 'Hello World'
+      parallel {
+        stage('Print Hello World') {
+          steps {
+            echo 'Hello World'
+          }
+        }
+
+        stage('Run unit test') {
+          steps {
+            sh 'cd curriculum-front && npm i && npm run test:unit'
+          }
+        }
+
       }
     }
 
