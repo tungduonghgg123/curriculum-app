@@ -9,35 +9,18 @@ pipeline {
           }
         }
 
-        stage('Say some thing cool') {
+        stage('echo PATH') {
           steps {
-            echo 'ahihi'
-          }
-        }
-
-        stage('shell script testing') {
-          steps {
-            sh 'pwd'
+            sh 'echo "PATH is: $PATH"'
           }
         }
 
       }
     }
 
-    stage('Print Hello World') {
-      parallel {
-        stage('Print Hello World') {
-          steps {
-            echo 'Hello World'
-          }
-        }
-
-        stage('Run unit test') {
-          steps {
-            sh 'cd curriculum-front && /usr/local/bin/npm i && npm run test:unit'
-          }
-        }
-
+    stage('Run unit test') {
+      steps {
+        sh 'cd curriculum-front && /usr/local/bin/npm i && npm run test:unit'
       }
     }
 
