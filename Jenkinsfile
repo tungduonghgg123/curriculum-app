@@ -20,7 +20,7 @@ pipeline {
 
     stage('Run unit test') {
       steps {
-        sh 'cd curriculum-front && npx eslint .'
+        sh 'cd curriculum-front && npm i && npx eslint .'
       }
     }
 
