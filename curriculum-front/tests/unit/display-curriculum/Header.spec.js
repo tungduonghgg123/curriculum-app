@@ -5,13 +5,13 @@ describe('display-curriculum/Header.vue', () => {
   test('if snapshot is correct', () => {
     const wrapper = mount(Header, {
       propsData: {
-        editField: '', // name, goal, or description
-        selectedCurriculum: { name: 'Learn Vue.js' },
+        editField: "", // name, goal, or description
+        selectedCurriculum: { name: "Learn Vue.js" },
         toggleEdit: () => {},
         saveEdit: () => {},
         cancelEdit: () => {}
       }
-    })
+    });
     expect(wrapper).toMatchSnapshot()
   })
 
