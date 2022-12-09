@@ -1,4 +1,4 @@
-# Curriculum App
+# Curriculum App 456
 
 *This project is currently in beta and hosted at: [studytracker.tech](https://studytracker.tech). See the [version 1 roadmap here](https://github.com/faraday-academy/curriculum-app/projects/1).*
 
