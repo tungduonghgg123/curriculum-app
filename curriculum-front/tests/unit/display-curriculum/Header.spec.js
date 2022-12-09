@@ -3,6 +3,7 @@ import Header from '@/components/display-curriculum/Header.vue'
 
 
 
+
 describe('display-curriculum/Header.vue', () => {
   test('if snapshot is correct', () => {
     const wrapper = mount(Header, {
