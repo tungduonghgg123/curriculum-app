@@ -12,7 +12,7 @@ To see the playlist where I livestream the building of this app, [click here](ht
 1. [Tech Stack](#tech-stack)
 1. [Mockups](#mockups)
 1. [Design](#design)
-1. [Routes](#routes)
+1. [Routes](#routes)ádf
 1. [Schema](#schema)
 1. [API](#api)
 1. [MVP Features](#mvp-features)
