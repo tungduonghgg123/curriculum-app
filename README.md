@@ -3,8 +3,8 @@ asdf ấdf
 *This project is currently in beta and hosted at: [studytracker.tech](https://studytracker.tech). See the [version 1 roadmap here](https://github.com/faraday-academy/curriculum-app/projects/1).*
 
 This app allows users to create their own learning curriculum. They can then keep track of their progress, share it with friends, and make changes as they go along.
-
-To see the playlist where I livestream th e building of this app, [click here](https://www.youtube.com/playlist?list=PLFBirL3MAv2-c8VpBJMvH8Hci975MLVU1).
+ 
+To see the playlist where I livestream. th e building of this app, [click here](https://www.youtube.com/playlist?list=PLFBirL3MAv2-c8VpBJMvH8Hci975MLVU1).
 
 ## Table of Contents 123
 
