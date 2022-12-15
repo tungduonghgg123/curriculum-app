@@ -6,7 +6,7 @@ This app allows users to create their own learning curriculum. They can then kee
  
 To see the playlist where I li. vestream. th e building of this app, [click here]  (https://www.youtube.com/playlist?list=PLFBirL3MAv2-c8VpBJMvH8Hci975MLVU1).
 
-## Table of Contents 123
+## Table of Contents 1234
 
 1. [Running Locally](#running-locally)
 1. [Tech Stack](#tech-stack)
